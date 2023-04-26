@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: font_pizza;
+    src: url("../fonte/OrderPizza-97J2.ttf");
+}
+header{
+height: 500px;
+background-image: url("../img/pexels-daria-10260559\ \(1\).jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+
+}
+#cabecalho{
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 100%;
+    height: 500px;
+
+}
+nav ul{ 
+    height: 120px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+li{
+    font-size: 20px;
+    list-style-type: none;
+}
+.user{
+width: 64px;
+}
+.logo{
+    padding-top: 60px;
+    height: 120px;
+} 
+
+h1{
+    color:white;
+    text-align: center;
+    font-size: 40pt;
+    font-family: font_pizza;
+}
+.nome{
+    color: rgba(255, 255, 0, 0.849);
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 100%;
+    background-color: slategray;
+}
+.card{
+     height: 400px;
+     width: 20%;
+     border: 1px solid black;
+}
+#img-card{
+    height: 340px;
+}
+#texto-card{
+    height: 60px;
+    background-color: black;
+    
+}
+#title-card{
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+#title-card{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    font-family:font_pizza ;
+
+}
+p{
+    color: white;
+    text-align: center;
+    height: 15px;
+}
